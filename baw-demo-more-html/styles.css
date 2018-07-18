@@ -1,0 +1,116 @@
+/*Styles for BAW more HTML demo*/
+body{
+ background-color: lightblue;
+}
+
+header{
+   background-color:#ffff1d;
+   /* -webkit-transform: rotate(90deg);*/
+   position:fixed;
+   top:1em;
+   display: flex;
+   flex-wrap: wrap;
+   justfy-content: space-between;
+ }
+  img {
+/* These properties make the image responsive to the viewport */
+    width: 100%;
+
+    max-width: 1000px;
+   /* end responsive image properties*/
+   display: block;
+   margin: auto;
+   margin-bottom: 5em;
+   margin-top: 5em;
+ }
+
+h1 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+ 
+  font-size:3em;  
+   margin-left:1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-indent: 1.5em;
+}
+
+
+  nav li{
+    list-style-type: none;
+    display: inline-block;
+  }
+  nav a {
+       font-family: 'Roboto', sans-serif;
+     text-decoration:none;
+     margin: 1em;
+    
+ }
+ nav a:hover{
+   background-color: #06ff8b ;
+ }
+ div{
+ padding:1em;
+ width:70px;
+ height:20px;
+ line-height:20px;
+ fong-size:18px;
+ }
+ 
+p {
+     text-align: left;
+     font-size: 0.8em;
+      font-family: 'Roboto', sans-serif;
+     text-transform: capitalize;
+     text-indent: 2em;    
+}
+div {
+      display:flex;
+      -moz-box-align: center;
+      -webkit-box-align: center;
+
+      -moz-box-pack: center;
+      -webkit-box-pack: center;
+
+      width: 300px;
+      height: 500px;
+      background-color: lightgrey;
+}
+
+style right {
+      width: 200px; /*右边div宽度固定*/
+      padding: 20px;
+      background-color: limegreen;
+    }
+    
+footer{
+   background-color: lightgreen; 
+   position:block;
+   bottom: 0;
+   right: 0;
+}
+
+/*.absoluteClass{
+  position: ansolute;
+  top:0;
+}
+
+.relativeClass{
+position: relative;
+}
+
+.constrainedClass{
+width:100%
+background-color:purple;
+}
+*/
+
+
+.social{
+  width: 1em;
+  border-left:0em;
+  border-bottom:0em;
+  } 
+
+
+
