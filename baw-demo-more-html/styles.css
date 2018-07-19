@@ -1,16 +1,20 @@
 /*Styles for BAW more HTML demo*/
 body{
- background-color: lightblue;
+ background-color: black;
+ 
 }
 
 header{
    background-color:#ffff1d;
    /* -webkit-transform: rotate(90deg);*/
+   
    position:fixed;
-   top:1em;
+   top:2em;
    display: flex;
    flex-wrap: wrap;
    justfy-content: space-between;
+   border-radius: 20px;
+   
  }
   img {
 /* These properties make the image responsive to the viewport */
@@ -22,95 +26,132 @@ header{
    margin: auto;
    margin-bottom: 5em;
    margin-top: 5em;
- }
+   border-radius: 20px;
+ } 
 
 h1 {
-  color: black;
+  color: white;
   font-family: 'Roboto', sans-serif;
- 
+  position:absolute;
   font-size:3em;  
-   margin-left:1em;
+  margin-left:5em;
   text-transform: uppercase;
   text-decoration: none;
-  text-indent: 1.5em;
-}
+ }
 
 
-  nav li{
+ nav li{
     list-style-type: none;
     display: inline-block;
   }
   nav a {
-       font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
      text-decoration:none;
      margin: 1em;
-    
+     padding:1em;
+     width: 3em;
  }
  nav a:hover{
-   background-color: #06ff8b ;
+    background-color: #06ff8b;
+    border-radius: 20px; 
+  
  }
- div{
- padding:1em;
- width:70px;
- height:20px;
- line-height:20px;
- fong-size:18px;
- }
+
  
-p {
-     text-align: left;
+p1 {
+     color:red;
+     text-align: justify;
      font-size: 0.8em;
-      font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
      text-transform: capitalize;
-     text-indent: 2em;    
+     text-indent: 1em; 
+     margin-right:6em;   
+     font-weight:bold;
+     position:relative;
+     margin-top:5em;
 }
-div {
-      display:flex;
-      -moz-box-align: center;
-      -webkit-box-align: center;
-
-      -moz-box-pack: center;
-      -webkit-box-pack: center;
-
-      width: 300px;
-      height: 500px;
-      background-color: lightgrey;
+p2{
+     color:red;
+     text-align: justify;
+     font-size: 0.8em;
+     font-family: 'Roboto', sans-serif;
+     text-transform: capitalize;
+     text-indent: 1em; 
+     margin-right: 6em; 
+     font-weight:bold ; 
 }
 
-style right {
-      width: 200px; /*右边div宽度固定*/
-      padding: 20px;
-      background-color: limegreen;
-    }
+p3{
+     color:red;
+     text-align:justify;
+     font-size: 1em;
+     font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+     font-weight:bold ;
+}
+
+
+ div { 
+      padding-top: 5em;
+      position:absolute;
+      display: flex;  
+      width: 500px; 
+      height:500px; 
+      border-radius: 20px; 
+      background-color:none;
+        
+ } 
+ 
+ 
+ .aboutClass {
+   position:absolute;
+   display: flex;
+   flex-wrap: wrap;
+   justfy-content: space-between;
+ 	
+ 	padding-top: 10em;
+ 	right:4em;
+ 	margin-left: 60em;	
+ }
+
+/* 
+.image2{
+display: block;
+   margin: auto;
+   margin-bottom: 5em;
+   margin-top: 5em;
+   border-radius: 20px;
+}
+.image3{
+position: fixed;
+margin-left: 26em;
+padding-top: 4em;
+width: 22.5%;
+border-radius: 20px;
+}
+ */
+.image4{
+    width: 100%;
+    max-width: 3000px;
+    display: flex;
+    margin: 0;
+    border-radius: 20px;
+    position: flex;
     
+}
 footer{
    background-color: lightgreen; 
-   position:block;
+   position:fixed;
    bottom: 0;
-   right: 0;
+   right: 1em;
+   display: flex;
+   border-radius: 20px;
 }
-
-/*.absoluteClass{
-  position: ansolute;
-  top:0;
-}
-
-.relativeClass{
-position: relative;
-}
-
-.constrainedClass{
-width:100%
-background-color:purple;
-}
-*/
-
 
 .social{
-  width: 1em;
+  width: 1.5em;
   border-left:0em;
   border-bottom:0em;
+  display: flex;
   } 
-
-
 
